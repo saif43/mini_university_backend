@@ -1,0 +1,97 @@
+# =====================================
+# Python
+# =====================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+
+# C extensions
+*.so
+
+# =====================================
+# Django / Project
+# =====================================
+# SQLite database (if used)
+db.sqlite3
+db.sqlite3-journal
+
+# Django migrations cache
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+
+# Local settings
+.env
+.env.*            # For environment-specific files
+*.local
+*.secret
+*.bak
+
+# Logs
+*.log
+*.log.*
+logs/
+*.pot
+*.mo
+
+# Media & Static (if collected locally)
+media/
+staticfiles/
+static/
+
+# =====================================
+# Virtual Environments
+# =====================================
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+pip-wheel-metadata/
+
+# =====================================
+# Coverage / Testing
+# =====================================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+pytest_cache/
+
+# =====================================
+# IDE / Editor files
+# =====================================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# =====================================
+# Docker / Container
+# =====================================
+*.pid
+celerybeat-schedule
+celerybeat.pid
+*.seed
+*.pid.lock
+
+# =====================================
+# Backup / Misc
+# =====================================
+*.orig
+*.rej
+*.bak
+*.tmp
+*~
