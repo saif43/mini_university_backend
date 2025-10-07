@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'courses',
     'enrollments',
     'auth_app',
+    'grade_course',
     'drf_yasg',
 ]
 
